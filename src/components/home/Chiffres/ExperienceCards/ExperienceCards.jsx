@@ -7,20 +7,20 @@ const ExperienceCards = () => {
   }, []);
   const experiences = [
     {
-      number: "13",
-      description: "Années D’expériences",
+      number: "O%",
+      description: " de pollution",
     },
     {
-      number: "84",
-      description: "Années D’expériences",
+      number: "+1",
+      description: "carte unique",
     },
     {
-      number: "30",
-      description: "Années D’expériences",
+      number: "10X",
+      description: "plus d'interactivitées avec vos clients",
     },
     {
-      number: "40K",
-      description: "Années D’expériences",
+      number: "100X",
+      description: "D’expériences et dinteractivité avec vos clients",
     },
   ];
   return (
@@ -30,15 +30,17 @@ const ExperienceCards = () => {
           <div
             key={i}
             data-aos='fade-up'
-            className='mx-6 h-44 bg-[#F3F3F3] rounded-[20px] text-center'
+            className='mx-6 pt-1 pb-6  bg-[#F3F3F3] rounded-[20px] text-center relative'
           >
             <p
               data-aos='fade-up'
-              className='text-[65px] font-bold tracking-wide text-transparent bg-clip-text purpleGradient w-fit mx-auto pt-6'
+              className='text-[65px] font-bold tracking-wide text-transparent bg-clip-text purpleGradient w-fit mx-auto '
             >
-              +{experience.number}
+              {experience.number}
             </p>
-            <p className='text-black text-[20px]'>{experience.description}</p>
+            <p className='mx-12 text-black text-[20px]'>
+              {experience.description}
+            </p>
           </div>
         );
       })}

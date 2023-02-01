@@ -23,7 +23,7 @@ export default function Home() {
         <Navbar>
           <Hero />
           <Features />
-          <HowTo />
+          {/* <HowTo /> */}
           <About />
           <BusinessFuture />
           <Chiffres />

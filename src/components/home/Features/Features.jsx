@@ -1,6 +1,7 @@
 import FeatureCards from "../../shared/FeatureCards/FeatureCards";
 import RegularLink from "../../shared/RegularLink/RegularLink";
 import SectionTitle from "../../shared/SectionTitle/SectionTitle";
+import DataCard from "../About/DataCard/DataCard";
 
 const Features = () => {
   const features = [
@@ -29,19 +30,20 @@ const Features = () => {
     },
   ];
   return (
-    <div className='mb-[130px]'>
-      <div className='mb-14'>
+    <div className='mb-[130px] relative  '>
+      <div className='mb-14  '>
         <SectionTitle
           title='Fonctionnalités'
           subTitle='Meilleures features fournies par Cardly.'
           description='les cartes digitales améliore la communication et renforce votre image de marque. Avec leurs fonctionnalités intuitives et personnalisables, elles sont le choix des professionnels soucieux de leur image et de leur visibilité.'
-          number='02'
+          number='01'
         />
       </div>
       <div className='mb-[50px]'>
         <FeatureCards features={features} />
       </div>
-      <RegularLink href='/waitlist' black />
+      {/* <RegularLink href='/waitlist' black /> */}
+      <DataCard />
     </div>
   );
 };

@@ -1,18 +1,17 @@
-import SectionTitle from '../../shared/SectionTitle/SectionTitle';
-import ExperienceCards from './ExperienceCards/ExperienceCards';
+import SectionTitle from "../../shared/SectionTitle/SectionTitle";
+import ExperienceCards from "./ExperienceCards/ExperienceCards";
 
 const Chiffres = () => {
   return (
-    <div className="h-[960px] mt-24 relative">
+    <div className='h-[960px] my-24 relative'>
       <SectionTitle
-        title="En Chiffres"
-        subTitle="Cardly En Un Coup D’oeil"
-        number="04"
-      />
-
-      <div className="absolute top-[118px] w-full">
+        title='En Chiffres'
+        subTitle='Cardly En Un Coup De carte'
+        number='03'
+      />{" "}
+      <div className='absolute top-[218px] w-full'>
         <ExperienceCards />
-      </div>
+      </div>{" "}
     </div>
   );
 };

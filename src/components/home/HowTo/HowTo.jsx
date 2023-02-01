@@ -3,7 +3,7 @@ import SectionTitle from "../../shared/SectionTitle/SectionTitle";
 
 const HowTo = () => {
   return (
-    <div className='mb-32'>
+    <div className='mb-32 relative z-50 '>
       <SectionTitle
         title='How To'
         subTitle='Comment fonctionne Cardly'
