@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const BottomHeroImg = () => {
   useEffect(() => {
-    AOS.init({ duration: 900, once: true });
+    AOS.refresh({ duration: 900, once: true });
   }, []);
   return (
     <div className='relative'>
