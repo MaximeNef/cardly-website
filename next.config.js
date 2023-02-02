@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    CARDLY: process.env.NEXT_PUBLIC_IMMERSY_MAIL,
+    CARDLY: process.env.NEXT_PUBLIC_CARDLY_MAIL,
   },
 };
 

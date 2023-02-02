@@ -3,5 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/waitlist": "pages/waitlist.js"
+  "/waitlist": "pages/waitlist.js",
+  "/api/waitlist": "pages/api/waitlist.js",
+  "/envoi": "pages/envoi.js"
 }
