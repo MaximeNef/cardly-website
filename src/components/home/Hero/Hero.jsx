@@ -4,13 +4,11 @@ import HeroHeader from "./HeroHeader/HeroHeader";
 
 const Hero = () => {
   return (
-    <div className='pt-[130px]  bg-black text-white w-full mx-auto'>
+    <div className='pt-[130px]  bg-black text-white w-full mx-auto  relative z-50'>
       <HeroHeader />
-      <EmailInput />
 
-      <div className='mt-48 '>
-        <BottomHeroImg />
-      </div>
+      <EmailInput />
+      <BottomHeroImg />
     </div>
   );
 };

@@ -13,10 +13,10 @@ const BottomHeroImg = () => {
   }, []);
 
   return (
-    <div className='relative z-10'>
+    <div className='relative z-10 pt-[130px]'>
       <div ref={boxRef}>
         <div
-          className='absoluteCenter top-[100px]'
+          className='absoluteCenter  top-[100px]'
           dangerouslySetInnerHTML={{
             __html: threeCards,
           }}
