@@ -1,12 +1,12 @@
-const sgMail = require('@sendgrid/mail');
+const sgMail = require("@sendgrid/mail");
 
 sgMail.setApiKey(process.env.SG_API_KEY);
 async function sendEmail(req, res) {
   try {
     await sgMail.send({
-      to: 'felicien.dehertogh@gmail.com',
-      from: 'immersy.info@gmail.com',
-      subject: 'Une personne vous contacte avec les informations suivantes',
+      to: "maximenef1@gmail.com",
+      from: "immersy.info@gmail.com",
+      subject: "Une personne vous contacte avec les informations suivantes",
       html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
       <html lang="en">
       <head>
@@ -40,7 +40,7 @@ async function sendEmail(req, res) {
     return res.status(error.statusCode || 500).json({ error: error.message });
   }
 
-  return res.status(200).json({ error: '' });
+  return res.status(200).json({ error: "" });
 }
 
 export default sendEmail;
