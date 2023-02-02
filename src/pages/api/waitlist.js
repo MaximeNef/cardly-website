@@ -4,9 +4,9 @@ sgMail.setApiKey(process.env.SG_API_KEY);
 async function sendEmail(req, res) {
   try {
     await sgMail.send({
-      to: "maximenef1@gmail.com",
-      from: "immersy.info@gmail.com",
-      subject: "Une personne vous contacte avec les informations suivantes",
+      to: "maximenef1@gmail.com", // Your email where you'll receive emails
+      from: "immersy.info@gmail.com", // your website email address here
+      subject: "Cardly: waiting liste ",
       html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
       <html lang="en">
       <head>
