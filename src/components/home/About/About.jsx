@@ -12,7 +12,7 @@ const About = () => {
     {
       title: "Pour Tous ",
       src: "/assets/img/hexagone.svg",
-      description: "indépendant/start-up aux entreprise en développement",
+      description: "indépendant/start-up aux entreprises en développement",
     },
     {
       title: "Achat unique !",
@@ -26,7 +26,7 @@ const About = () => {
         <SectionTitle
           title='A Propos'
           subTitle='En Savoir Plus Sur Cardly'
-          description="Cardly est plus qu'une carte digital, elle résoud tous les problème. voici certain de ses avantages"
+          description="Cardly est plus qu'une carte digitale, elle résout tous les problèmes. Voici certains de ses avantages"
           number='02'
         />
       </div>

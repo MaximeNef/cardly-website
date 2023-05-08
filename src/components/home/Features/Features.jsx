@@ -9,24 +9,24 @@ const Features = () => {
       title: "Partage facile",
       src: "/assets/img/hexagone.svg",
       description:
-        "une diffusion rapide et efficace de vos informations au répertoire.",
+        "Une diffusion rapide et efficace de vos informations au répertoire.",
     },
     {
       title: "Personnalisation",
       src: "/assets/img/hexagone.svg",
       description:
-        "votre photo, logo et couleurs de marque, champs d'informations, ect.. .",
+        "Votre photo, logo et couleurs de marque, champs d'informations, ect.. .",
     },
     {
       title: "Accessibilité",
       src: "/assets/img/hexagone.svg",
-      description: "consultées sur n'importe quel appareil connecté",
+      description: "Consultez sur n'importe quel appareil connecté",
     },
     {
       title: "Notification en temps réel",
       src: "/assets/img/hexagone.svg",
       description:
-        "Permettent de suivre les leads et de recevoir des alertes en cas d'action.",
+        "Permet de suivre les leads et de recevoir des alertes en cas d'action.",
     },
   ];
   return (
@@ -35,7 +35,7 @@ const Features = () => {
         <SectionTitle
           title='Fonctionnalités'
           subTitle='Meilleures features fournies par Cardly.'
-          description='les cartes digitales améliore la communication et renforce votre image de marque. Avec leurs fonctionnalités intuitives et personnalisables, elles sont le choix des professionnels soucieux de leur image et de leur visibilité.'
+          description='Les cartes digitales améliorent la communication et renforcent votre image de marque. Avec leurs fonctionnalités intuitives et personnalisables, elles sont le choix des professionnels soucieux de leur image et de leur visibilité.'
           number='01'
         />
       </div>

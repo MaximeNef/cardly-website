@@ -6,7 +6,7 @@ const Chiffres = () => {
     <div className='h-[960px] my-24 relative'>
       <SectionTitle
         title='En Chiffres'
-        subTitle='Cardly En Un Coup De carte'
+        subTitle='Cardly En Un Coup De Carte'
         number='03'
       />{" "}
       <div className='absolute top-[218px] w-full'>

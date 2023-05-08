@@ -16,11 +16,11 @@ const ExperienceCards = () => {
     },
     {
       number: "10X",
-      description: "plus d'interactivitées avec vos clients",
+      description: "plus d'interactivité avec vos clients",
     },
     {
       number: "100X",
-      description: "D’expériences et dinteractivité avec vos clients",
+      description: "D’expériences et d'interactivité avec vos clients",
     },
   ];
   return (
