@@ -23,23 +23,24 @@ const BottomHeroImg = () => {
         />
       </div>
 
-      <div className='relative z-10  w-full'>
-        <div className=" justify-center">
+      <div className='relative z-10  w-auto'>
+        <div id="circle" className="  ">
           <div
-            id='decouvrir'
-            className='absoluteCenter left-[43%] top-[-60px]'
-            dangerouslySetInnerHTML={{
+            className="absoluteCenter  "
+                        dangerouslySetInnerHTML={{
               __html: decouvrir,
             }}
           />
 
         </div>
-        <div
+
+        <div className="w-full  " id="margin"
           dangerouslySetInnerHTML={{
             __html: rounded,
           }}
         />
       </div>
+
     </div>
   );
 };
