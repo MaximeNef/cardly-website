@@ -10,7 +10,7 @@ const BusinessFuture = () => {
   }, []);
 
   return (
-    <div className='bg-black mt-[120px] text-white w-full relative'>
+    <div className='bg-blackCards mt-[120px] text-white w-full relative'>
       <div
         data-aos='fade-up'
         className='ml-5 mr-[60px] relative z-20 pt-8 text-[28px] tracking-[-0.085px]  leading-[40px] font-[1000]

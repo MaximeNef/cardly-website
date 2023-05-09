@@ -12,7 +12,8 @@ module.exports = {
         darkGrey: "#1F1F1F",
         lightGrey: "#9C9C9C",
         whiteGrey: "#F3F3F3",
-        blackTitle: "#121212",
+        blackTitle: "#141313",
+        blackCards : "#141313"
       },
 
       fontSize: {
@@ -30,6 +31,13 @@ module.exports = {
       boxShadow: {
         apple: "2px 4px 16px rgb(0 0 0 / 12%)",
         btnShadow: "2px 4px 10px 2px red",
+      },
+
+      breakpoints: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
       },
     },
   },

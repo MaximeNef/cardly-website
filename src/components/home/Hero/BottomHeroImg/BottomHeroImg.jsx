@@ -16,21 +16,24 @@ const BottomHeroImg = () => {
     <div className='relative z-10 pt-[130px]'>
       <div ref={boxRef}>
         <div
-          className='absoluteCenter  top-[100px]'
+          className='absoluteCenter md:left-[48.6%] top-[100px]'
           dangerouslySetInnerHTML={{
             __html: threeCards,
           }}
         />
       </div>
 
-      <div className='relative z-10'>
-        <div
-          id='decouvrir'
-          className='absoluteCenter left-[38%] top-[-60px]'
-          dangerouslySetInnerHTML={{
-            __html: decouvrir,
-          }}
-        />
+      <div className='relative z-10  w-full'>
+        <div className=" justify-center">
+          <div
+            id='decouvrir'
+            className='absoluteCenter left-[43%] top-[-60px]'
+            dangerouslySetInnerHTML={{
+              __html: decouvrir,
+            }}
+          />
+
+        </div>
         <div
           dangerouslySetInnerHTML={{
             __html: rounded,

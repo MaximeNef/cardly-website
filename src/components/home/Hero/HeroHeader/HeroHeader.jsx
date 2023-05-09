@@ -20,7 +20,7 @@ const HeroHeader = () => {
         data-aos='fade-up'
         className='text-5xl tracking-[-0.085px]  leading-[60px] font-[1000] text-transparent bg-clip-text purpleGradient w-fit'
       >
-        Transférez vos informations avec votre card digitale!
+        Transférez vos informations avec votre carte digitale!
       </p>
       {/* <p className="mt-[42px]">
         Une solution complète Une solution complète Une solution complète Une

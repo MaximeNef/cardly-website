@@ -3,7 +3,7 @@ import GradientLink from "../../../shared/GradientLink/GradientLink";
 
 const Footer = () => {
   return (
-    <div className='relative bottom-0 w-full px-10 pt-10 pb-4 text-center text-white bg-black'>
+    <div className='relative bottom-0 w-full px-10 pt-10 pb-4 text-center text-white bg-blackCards'>
       <p className='text-xl leading-[30px] mb-[50px]'>
         Reste connect avec ta futur Card digitale
       </p>
