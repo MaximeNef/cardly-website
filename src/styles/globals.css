@@ -41,15 +41,33 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  #decouvrir {
-    animation: rotation 5s infinite linear;
+
+  #circle {
+    /* set the width and height of the SVG element */
+    width: 100px;
+    height: 100px;  
+    /* set the animation properties */
+    animation-name: rotate;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: 50% 50%;
+    margin : auto;
+ 
   }
-  @keyframes rotation {
+  
+  @keyframes rotate {
+    /* set the start and end rotation angles */
     from {
       transform: rotate(0deg);
     }
     to {
       transform: rotate(360deg);
     }
+  }
+
+  #margin 
+  {
+    margin-top: -40px;
   }
 }
