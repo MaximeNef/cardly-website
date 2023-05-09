@@ -13,7 +13,8 @@ module.exports = {
         lightGrey: "#9C9C9C",
         whiteGrey: "#F3F3F3",
         blackTitle: "#141313",
-        blackCards : "#141313"
+        blackCards : "#141313",
+        backgroundWhite: "#f8f8f8 "
       },
 
       fontSize: {

@@ -4,6 +4,7 @@ import { decouvrir, rounded, threeCards } from "./svg";
 import { useEffect, useRef } from "react";
 
 import { gsap } from "gsap/dist/gsap";
+import Image from "next/image";
 
 const BottomHeroImg = () => {
   const boxRef = useRef();
@@ -13,14 +14,13 @@ const BottomHeroImg = () => {
   }, []);
 
   return (
-    <div className='relative z-10 pt-[130px]'>
-      <div ref={boxRef}>
+    <div className='mt-[-100px] relative z-10'>
+      <div className="flex">
         <div
-          className='absoluteCenter md:left-[48.6%] top-[100px]'
-          dangerouslySetInnerHTML={{
-            __html: threeCards,
-          }}
-        />
+          className='m-auto'>
+            <Image src="./assets/img/threeCards.svg" alt="three Cards" width={900} height={500} />
+        </div>
+   
       </div>
 
       <div className='relative z-10  w-auto'>
@@ -34,7 +34,7 @@ const BottomHeroImg = () => {
 
         </div>
 
-        <div className="w-full  " id="margin"
+        <div className=" w-full  bg-backgroundWhite " id="margin"
           dangerouslySetInnerHTML={{
             __html: rounded,
           }}

@@ -3,7 +3,7 @@ import Header from './Header/Header';
 
 const Navbar = ({ children, current }) => {
   return (
-    <div className="w-full">
+    <div className="w-full bg-backgroundWhite">
       <Header />
       {children}
       {!(current == 'waitlist') ? <Footer /> : null}
