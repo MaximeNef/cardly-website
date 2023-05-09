@@ -14,10 +14,9 @@ const FeatureCards = ({ features }) => {
         return (
           <div
             key={i}
-            data-aos='fade-up'
-            className=' mx-6 rounded-[20px] text-center bg-whiteGrey lg:hover:bg-black  '
-          >
-            <div className='flex flex-col items-center mx-8 py-[53px]'>
+            data-aos='fade-up' style={{ transition: 'background-color 0.5s ease-in-out' }}
+            className='mx-6 rounded-[20px] text-center bg-whiteGrey md:hover:bg-blackCards transition duration-300 ease-in-out'> 
+              <div className='flex flex-col items-center mx-8 py-[53px]'>
               <p
                 data-aos='fade-up'
                 className='text-3xl leading-[36px] font-bold tracking-wide text-transparent bg-clip-text purpleGradient w-fit'

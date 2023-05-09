@@ -13,7 +13,7 @@ const EmailInput = () => {
         onChange={(e) => {
           setEmail(() => e.target.value);
         }}
-        className='rounded-[50px] bg-black text-white placeholder-white ml-5 focus:outline-none'
+        className='rounded-[50px] bg-blackCards text-white placeholder-white ml-5 focus:outline-none'
       />
 
       <Link
