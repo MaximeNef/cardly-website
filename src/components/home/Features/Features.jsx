@@ -30,20 +30,23 @@ const Features = () => {
     },
   ];
   return (
-    <div className='mb-[130px] relative  '>
-      <div className='mb-14  '>
+    <div className='md:mt-[50px] mb-[130px] md:mx-[25px] relative md:flex flex-row justify-between  '>
+      <div className='mt-[40px] mb-14 w-auto  '>
         <SectionTitle
           title='Fonctionnalités'
           subTitle='Meilleures features fournies par Cardly.'
           description='Les cartes digitales améliorent la communication et renforcent votre image de marque. Avec leurs fonctionnalités intuitives et personnalisables, elles sont le choix des professionnels soucieux de leur image et de leur visibilité.'
           number='01'
         />
+        <div className="md:mt-[90px]">
+          <DataCard />
+        </div>
       </div>
-      <div className='mb-[50px]'>
-        <FeatureCards features={features} />
+
+      <div className='mb-[50px] w-auto '>
+        <FeatureCards hasMargin={false} gridLayout={true} features={features} />
       </div>
       {/* <RegularLink href='/waitlist' black /> */}
-      <DataCard />
     </div>
   );
 };

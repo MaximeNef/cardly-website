@@ -16,8 +16,8 @@ const HeroHeader = () => {
         </p>
         <EmailInput />
       </div>
-      <div>
-          <div className="mb-[25px]">
+      <div className="max-w-[220px]">
+          <div className="mb-[25px] ">
                 <p className="text-[40px]">500K +</p>
                 <p className="text-[20px] ">Personnes se sont déjà enregistrées</p>
           </div>
@@ -32,6 +32,8 @@ const HeroHeader = () => {
       </div>
 
     </div>
+    
+    
   );
 };
 

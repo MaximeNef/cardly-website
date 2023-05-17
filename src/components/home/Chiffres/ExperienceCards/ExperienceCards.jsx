@@ -24,13 +24,13 @@ const ExperienceCards = () => {
     },
   ];
   return (
-    <div className='space-y-[24px]'>
+    <div className='sm:space-y-[24px] md:space-y-0 md:flex flex-row justify-between '>
       {experiences.map((experience, i) => {
         return (
           <div
             key={i}
             data-aos='fade-up'
-            className='mx-6 pt-1 pb-6  bg-[#F3F3F3] rounded-[20px] text-center relative'
+            className=' sm:mx-6 sm:pt-1 sm:pb-6  bg-[#F3F3F3] rounded-[20px] text-center relative md:w-[200px] lg:w-[400px]'
           >
             <p
               data-aos='fade-up'

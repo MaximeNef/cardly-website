@@ -7,8 +7,8 @@ const SectionTitle = ({ title, subTitle, description, number }) => {
     AOS.init({ duration: 800, once: true });
   }, []);
   return (
-    <div className='relative bg-[#f8f8f7] z-50 pt-[65px]'>
-      <div className='relative z-20 mx-[30px]'>
+    <div className='relative bg-[#f8f8f7] z-50 pt-[65px] md:w-[70%]'>
+      <div className='relative z-20 '>
         <p className='text-lg font-ABeeZeeItalic text-li'>{title}</p>
         <p
           data-aos='fade-up'

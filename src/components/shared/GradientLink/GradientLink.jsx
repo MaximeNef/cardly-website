@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
-const GradientLink = ({ href, text }) => {
+const GradientLink = ({ href, text, isAlign }) => {
   return (
-    <div className="z-50 mx-auto w-fit">
+    <div className={`z-50 sm:mx-auto  ${isAlign ? `mx-auto` :`md:mx-[70px]`} w-fit`}>
       <Link href={href}>
         {/* <div
           className={`${positionX} ${positionY} bg-white absoluteCenter z-20 rounded-[50px] w-[190px] h-[56px] pt-3 px-5 text-base font-light uppercase text-center leading-[17px] purpleGradient text-white`}

@@ -10,22 +10,20 @@ const BusinessFuture = () => {
   }, []);
 
   return (
-    <div className='bg-blackCards mt-[120px] text-white w-full relative'>
-      <div
-        data-aos='fade-up'
-        className='ml-5 mr-[60px] relative z-20 pt-8 text-[28px] tracking-[-0.085px]  leading-[40px] font-[1000]
-       '
-      >
-        Transformez votre partage d'informations avec Cardly
-      </div>
-      <div
-        data-aos='fade-up-left'
-        className=' h-[260px] w-[270px] z-10 right-0 bottom-[80px] absolute '
-      >
-        <Image src='/assets/img/card.svg' fill alt='your card' />
-      </div>
-      <div className='mt-[180px] pb-8 '>
-        <GradientLink href='/waitlist' text="rejoindre la liste d'attente" />
+    <div className="m-auto md:mx-[25px] ">
+      <div className='bg-blackCards mt-[120px] text-white w-full relative  md:rounded-[25px]'>
+
+        <div data-aos='fade-up'className='sm:ml-5 sm:mr-[60px] relative z-20 pt-8 sm:text-[28px] tracking-[-0.085px] leading-[40px] font-[1000] md:w-[400px] lg:max-w-[600px] md:top-[100px] md:left-[50px] md:text-[40px]'>
+          Transformez votre partage d'informations avec Cardly
+        </div>
+
+        <div data-aos='fade-up-left' className=' sm:h-[200px] sm:w-[200px] md:h-[400px] md:w-[500px] z-10 sm:right-0 sm:bottom-[80px] md:bottom-[50px] md:left-[45%] absolute '>
+          <Image src='/assets/img/card.svg' fill alt='your card' />
+        </div>
+
+        <div className='mt-[180px] sm:pb-8 md:pb-[50px] '>
+          <GradientLink isAlign={false} href='/waitlist' text="rejoindre la liste d'attente" />
+        </div>
       </div>
     </div>
   );

@@ -18,30 +18,30 @@ const BottomHeroImg = () => {
       <div className="flex">
         <div
           className='m-auto'>
-            <Image src="./assets/img/threeCards.svg" alt="three Cards" width={900} height={500} />
+            <Image src="./assets/img/threeCards.svg" alt="three Cards" width={800} height={200} />
         </div>
    
       </div>
 
-      <div className='relative z-10  w-auto'>
-        <div id="circle" className="  ">
-          <div
-            className="absoluteCenter  "
-                        dangerouslySetInnerHTML={{
-              __html: decouvrir,
-            }}
-          />
 
+        <div className="relative z-10 w-auto  ">
+          <div className="absolute left-1/2 transform -translate-x-1/2">
+            <div className="absoluteCenter" dangerouslySetInnerHTML={{ __html: decouvrir }} />
+          </div>
+
+          <div className="w-full bg-transparent  z-20 relative bottom-[10px]">
+            <div id="circle" className=" absolute left-1/2 transform -translate-x-1/2">
+            </div>
+            {/* <div dangerouslySetInnerHTML={{ __html: rounded }} className="" /> */}
+          </div>
         </div>
 
-        <div className=" w-full  bg-backgroundWhite " id="margin"
-          dangerouslySetInnerHTML={{
-            __html: rounded,
-          }}
-        />
+        
       </div>
 
-    </div>
+
+
+
   );
 };
 
