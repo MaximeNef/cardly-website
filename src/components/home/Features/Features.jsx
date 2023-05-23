@@ -44,7 +44,7 @@ const Features = () => {
       </div>
 
       <div className='mb-[50px] w-auto '>
-        <FeatureCards hasMargin={false} gridLayout={true} features={features} />
+        <FeatureCards isShow={false} hasMargin={false} gridLayout={true} features={features} />
       </div>
       {/* <RegularLink href='/waitlist' black /> */}
     </div>

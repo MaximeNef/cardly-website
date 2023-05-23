@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="md:mx-[25px]">
     <div className='relative bottom-0 w-full px-10 pt-10 pb-4 text-center text-white bg-blackCards md:rounded-[60px] md:rounded-b-none '>
       <p className='text-xl leading-[30px] mb-[50px]'>
-        Reste connect avec ta futur Card digitale
+        Reste connecté avec ta future carte digitale !
       </p>
       <div className='mb-[40px]'>
         <GradientLink  isAlign={true} href='/waitlist' text="rejoindre la liste d'attente" />

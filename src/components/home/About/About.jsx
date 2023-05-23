@@ -1,6 +1,5 @@
 import FeatureCards from "../../shared/FeatureCards/FeatureCards";
 import SectionTitle from "../../shared/SectionTitle/SectionTitle";
-import DataCardSecond from "./DataCard/DataCardSecond";
 
 const About = () => {
   const features = [
@@ -30,10 +29,8 @@ const About = () => {
           number='02'
         />
       </div>
-      <div className="md:mt-[50px] md:flex flew-row md:justify-between md:mx-[25px]">
-        <FeatureCards gridLayout={false}  features={features} hasMargin={true} />
-        <DataCardSecond />
-
+      <div className="md:mt-[140px] md:flex flew-row md:justify-between md:mx-[25px]">
+        <FeatureCards isShown={true} gridLayout={false}  features={features} hasMargin={true} />
       </div>
     </div>
   );
