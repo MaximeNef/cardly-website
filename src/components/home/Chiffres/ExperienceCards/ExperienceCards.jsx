@@ -39,7 +39,7 @@ const ExperienceCards = () => {
               >
                 {experience.number}
               </p>
-              <p className='mx-12 text-black text-[20px]'>
+              <p className='mx-12 text-black text-[20px] pb-[10px]'>
                 {experience.description}
               </p>
             </div>

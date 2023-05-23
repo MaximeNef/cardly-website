@@ -14,7 +14,7 @@ const BottomHeroImg = () => {
   }, []);
 
   return (
-    <div className='sm:mt-[200px] md:mt-[-100px] relative z-10'>
+    <div className=' md:mt-[-30px] relative z-10'>
       <div className="flex">
         <div
           className='m-auto px-[100px]'>

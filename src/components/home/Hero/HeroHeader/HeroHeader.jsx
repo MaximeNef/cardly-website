@@ -8,9 +8,9 @@ const HeroHeader = () => {
     AOS.init({ duration: 800, once: true });
   }, []);
   return (
-    <div className=' text-ABeeZeeItalic mx-[10px] md:mx-[120px] flex-col  md:flex md:flex-row justify-between'>
+    <div className=' text-ABeeZeeItalic mx-[10px] md:mx-[5%] flex-col  md:flex md:flex-row justify-between'>
       <div>
-        <p className=" font-normal text-[30px] md:text-[40px] md:w-[450px] md:mb-[50px] leading-11">
+        <p className=" font-normal text-[30px] md:text-[40px]  md:w-[450px] md:mb-[50px] leading-11">
             Une solution complète de cartes de visite virtuelles conçues 
             pour votre entreprise
         </p>

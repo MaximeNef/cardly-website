@@ -18,7 +18,7 @@ const FeatureCards = ({ features, gridLayout, hasMargin, isShown }) => {
             <div
               key={i}
               data-aos='fade-up' style={{ transition: 'background-color 0.5s ease-in-out' }}
-              className={` rounded-[20px] text-center bg-whiteGrey md:hover:bg-blackCards transition duration-300 ease-in-out md:w-auto  md:mr-[60px] ${ hasMargin ? 'lg:mr-[60px]': 'lg:mr-[0px]'}`}> 
+              className={`md:max-w-[300px] rounded-[20px] text-center bg-whiteGrey md:hover:bg-blackCards transition duration-300 ease-in-out md:w-auto  md:mr-[60px] ${ hasMargin ? 'lg:mr-[60px]': 'lg:mr-[0px]'}`}> 
                 <div className='md:my-[60px] flex flex-col items-center sm:my-[20px] md:mx-8 py-[53px]'>
                   <p
                     data-aos='fade-up'

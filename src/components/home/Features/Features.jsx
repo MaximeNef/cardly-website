@@ -31,7 +31,7 @@ const Features = () => {
   ];
   return (
     <div className='mx-[10px] md:mt-[50px] mb-[130px] md:mx-[25px] relative md:flex flex-row justify-between  '>
-      <div className='mt-[100px] md:mt-[40px] mb-14 w-auto px-[10px] md:px-0 '>
+      <div className='md:max-w-[600px] mt-[100px] md:mt-[40px] mb-14 w-auto px-[10px] md:px-0 '>
         <SectionTitle
           title='Fonctionnalités'
           subTitle='Meilleures features fournies par Cardly.'
