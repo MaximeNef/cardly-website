@@ -14,10 +14,10 @@ const BottomHeroImg = () => {
   }, []);
 
   return (
-    <div className='mt-[-100px] relative z-10'>
+    <div className='sm:mt-[200px] md:mt-[-100px] relative z-10'>
       <div className="flex">
         <div
-          className='m-auto'>
+          className='m-auto px-[100px]'>
             <Image src="./assets/img/threeCards.svg" alt="three Cards" width={800} height={200} />
         </div>
    
@@ -32,7 +32,6 @@ const BottomHeroImg = () => {
           <div className="w-full bg-transparent  z-20 relative bottom-[10px]">
             <div id="circle" className=" absolute left-1/2 transform -translate-x-1/2">
             </div>
-            {/* <div dangerouslySetInnerHTML={{ __html: rounded }} className="" /> */}
           </div>
         </div>
 

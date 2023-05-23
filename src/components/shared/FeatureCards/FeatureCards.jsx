@@ -12,7 +12,7 @@ const FeatureCards = ({ features, gridLayout, hasMargin, isShown }) => {
 
 
   return (
-    <div className={`sm:space-y-6 md:space-y-0 ${gridLayout ? 'md:grid md:grid-cols-2 md:gap-6' : ''} md:flex flex-row ` }>
+    <div className={`space-y-6 md:space-y-0 ${gridLayout ? 'md:grid md:grid-cols-2 md:gap-6' : ''} md:flex flex-row ` }>
       {features.map((feature, i) => {
         return (
             <div
@@ -35,18 +35,18 @@ const FeatureCards = ({ features, gridLayout, hasMargin, isShown }) => {
        
       })}
         <div className={`${isShown ? 'block' : 'hidden'} flex flex-col bg-blackCards text-center  rounded-[20px] mt-[24px] md-w-auto`}>
-          <div className='pt-10 mb-14'>
+          <div className='pt-10 mb-[20px] md:mb-14'>
             <p
               data-aos='fade-up'
-              className='text-3xl  text-white leading-[38px] mx-[21px]'
+              className='text-2xl md:text-3xl  text-white leading-[38px] mx-[21px]'
             >
-              Toutes Tes Données
+              Toutes tes données
             </p>
             <p
               data-aos='fade-up'
-              className='text-3xl text-white leading-[38px] mx-[24px]'
+              className='text-2xl md:text-3xl text-white leading-[38px] mx-[24px]'
             >
-              Dans Une Seule Carte&nbsp;☝️
+              dans une seule carte&nbsp;☝️
             </p>
           </div>
           <div className='pb-14 m-auto'>

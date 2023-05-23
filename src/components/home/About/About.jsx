@@ -21,7 +21,7 @@ const About = () => {
   ];
   return (
     <div>
-      <div className='mb-6 md:mx-[25px]'>
+      <div className=' mb-6 mx-[10px] md:mx-[25px]'>
         <SectionTitle
           title='A Propos'
           subTitle='En Savoir Plus Sur Cardly'
@@ -29,7 +29,7 @@ const About = () => {
           number='02'
         />
       </div>
-      <div className="md:mt-[140px] md:flex flew-row md:justify-between md:mx-[25px]">
+      <div className="mt-[140px] md:flex flew-row md:justify-between mx-[10px] md:mx-[25px]">
         <FeatureCards isShown={true} gridLayout={false}  features={features} hasMargin={true} />
       </div>
     </div>

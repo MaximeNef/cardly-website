@@ -30,7 +30,7 @@ const ExperienceCards = () => {
           <div
             key={i}
             data-aos='fade-up'
-            className=' sm:mx-6 sm:pt-1 sm:pb-6  bg-[#F3F3F3] rounded-[20px] text-center relative md:w-[200px] lg:w-[400px] md:flex flex-col'
+            className=' pt-1 md:pt-0 mb-6 pb-6 md:mb-0 md:pb-0 md:mx-6 bg-[#F3F3F3] rounded-[20px] text-center relative md:w-[200px] lg:w-[400px] md:flex flex-col'
           >
             <div className="md:m-auto">
               <p

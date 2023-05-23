@@ -5,7 +5,7 @@ const EmailInput = () => {
   const [email, setEmail] = useState("");
 
   return (
-    <div className='w-[350px] relative z-[89] mb-[60px] flex flex-row justify-between border-[1px] h-[55px] border-white rounded-[50px]'>
+    <div className='mt-[50px] md:mt-0   md:w-[350px] relative z-[89] mb-[60px] flex flex-row justify-between border-[1px] h-[55px] border-white rounded-[50px]'>
       <input
         type='text'
         placeholder='Entre ton email'
@@ -13,7 +13,7 @@ const EmailInput = () => {
         onChange={(e) => {
           setEmail(() => e.target.value);
         }}
-        className='rounded-[50px] bg-blackCards text-white placeholder-white ml-5 focus:outline-none'
+        className='w-auto rounded-[50px] bg-blackCards text-white placeholder-white ml-1 md:ml-5 focus:outline-none'
       />
 
       <Link
@@ -22,7 +22,7 @@ const EmailInput = () => {
           query: { email: email },
         }}
       >
-        <div className='uppercase bg-white text-black text-[10px] text-center leading-3 w-[130px] h-[55px] rounded-[48px] pt-4 px-3 mt-[-1px]'>
+        <div className='uppercase bg-white text-black text-[10px] text-center leading-3 w-[110px] md:w-[130px] h-[55px] rounded-[48px] pt-4 px-3 mt-[-1px]'>
           rejoindre la liste d&apos;attente
         </div>
       </Link>
