@@ -13,11 +13,11 @@ const BusinessFuture = () => {
     <div className=" m-auto  md:mt-[200px] mx-[0px] md:mx-[25px] ">
       <div className='bg-blackCards mt-[120px] text-white w-full relative  md:rounded-[25px]'>
 
-        <div data-aos='fade-up'className='ml-5  mr-[60px] relative z-20 pt-8 text-[28px] tracking-[-0.085px] leading-[40px] font-[1000] md:w-[400px] lg:max-w-[600px] md:top-[100px] md:left-[50px] md:text-[40px]'>
+        <div data-aos='fade-up'className='ml-5  mr-[60px] relative z-20 pt-8 text-[28px] md:text-[28px] lg:text-[28px] tracking-[-0.085px] leading-[40px] font-[1000] w-[300px] lg:w-[400px] lg:max-w-[600px] md:top-[100px] md:left-[50px] md:text-[40px]'>
           Transformez votre partage d'informations avec Cardly
         </div>
 
-        <div data-aos='fade-up-left' className=' h-[250px] w-[250px] md:h-[400px] md:w-[500px] z-10 sm:right-0 bottom-[80px]  md:bottom-[50px] left-[40%] md:left-[45%] absolute '>
+        <div data-aos='fade-up-left' className=' h-[250px] w-[250px] md:w-[450px] md:h-[370px] lg:h-[400px] lg:w-[500px] z-10 sm:right-0 bottom-[80px]  md:bottom-[50px] left-[40%] md:left-[45%] absolute '>
           <Image src='/assets/img/card.svg' fill alt='your card' />
         </div>
       <div className="flex">

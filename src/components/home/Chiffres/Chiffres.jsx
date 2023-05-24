@@ -9,7 +9,7 @@ const Chiffres = () => {
         subTitle='Cardly En Un Coup De Carte'
         number='03'
       />{" "}
-      <div className='absolute top-[350px] md:top-[300px] w-full md:mx-[-25px]'>
+      <div className='absolute top-[350px] md:top-[300px] w-full md:mx-[-10px] '>
         <ExperienceCards />
       </div>{" "}
     </div>

@@ -24,22 +24,22 @@ const ExperienceCards = () => {
     },
   ];
   return (
-    <div className='sm:space-y-[24px] md:space-y-0 md:flex flex-row justify-between '>
+    <div className='space-y-[24px] md:space-y-0 md:flex flex-row justify-between '>
       {experiences.map((experience, i) => {
         return (
           <div
             key={i}
             data-aos='fade-up'
-            className=' pt-1 md:pt-0 mb-6 pb-6 md:mb-0 md:pb-0 md:mx-6 bg-[#F3F3F3] rounded-[20px] text-center relative md:w-[200px] lg:w-[400px] md:flex flex-col'
+            className=' pt-1 md:pt-0 mb-6 pb-6 md:mb-0 md:pb-0 mx-2 lg:mx-6 bg-[#F3F3F3] rounded-[20px] text-center relative md:w-[200px] lg:w-[100%] md:flex flex-col'
           >
             <div className="md:m-auto">
               <p
                 data-aos='fade-up'
-                className='text-[65px] font-bold tracking-wide text-transparent bg-clip-text purpleGradient w-fit mx-auto '
+                className='text-[65px] md:text-[40px] lg:text-[65px] font-bold tracking-wide text-transparent bg-clip-text purpleGradient w-fit mx-auto '
               >
                 {experience.number}
               </p>
-              <p className='mx-12 text-black text-[20px] pb-[10px]'>
+              <p className='mx-12 md:mx-10 lg:mx-12  text-black text-[20px] md:text-[18px] lg:text-[20px] pb-[10px]'>
                 {experience.description}
               </p>
             </div>
